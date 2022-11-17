@@ -64,7 +64,7 @@ const useStyles = makeStyles(() => ({
 const CookiesBanner = () => {
   const classes = useStyles();
   const isBrowser = typeof window !== 'undefined';
-  const [consent, setConsent] = useState(isBrowser ? Cookies.get('consent') : null);
+  const [consent, setConsent] = useState(isBrowser ? JSON.parse(Cookies.get('consent')) : null);
   const close = () => {
     Cookies.set('consent', true);
     setConsent(true);
