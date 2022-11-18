@@ -80,7 +80,7 @@
     "graphql": "^14.2.1",
     "graphql-tag": "^2.10.3",
     "is-absolute-url": "^2.1.0",
-    "js-cookie": "^2.2.1",
+    "js-cookie": "^3.0.1",
     "lodash": "^4.17.20",
     "lodash.groupby": "^4.6.0",
     "lodash.startcase": "^4.4.0",
